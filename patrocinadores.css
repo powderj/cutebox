@@ -1,0 +1,18 @@
+
+body {background-image: linear-gradient(to top, #f9adb7, #faf2dd);
+    min-height: 115vh;
+    text-align: center;}
+img {
+margin-left: 41,5%;
+margin-right: 41,5%;
+border-radius: 40px;
+}
+.melu {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #d9a7a4;
+    text-align: center;
+}
+.sla {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:#faf2dd ;
+}

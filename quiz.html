@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="estilof.css">
+    <title>Quiz</title>
+    <link rel="icon" type="image/x-icon" href="favicon.png">
+</head>
+<body>
+    <script>
+
+        var pt = 0
+        
+        var p = (prompt("Qual o primeiro passo da maquiagem? A)Tonificação B)Hidratação C)Limpeza da pele D)Primer"))
+        if (p=="C") {
+            alert ("Resposta correta! +1 ponto")
+            pt = pt++;
+        }
+        else {
+            alert ("Resposta incorreta, sem ponto")
+        };
+        var s = (prompt("Qual produto é usado para cobrir imperfeições? A)Corretivo B)Primer C)Hidratante D)Sombra"))
+        if (s=="A") {
+            alert ("Resposta correta! +1 ponto")
+            pt = pt++;
+        }
+        else {
+            alert ("Resposta incorreta, sem ponto")
+        };
+        var t = (prompt("Quem criou o batom? A)Kim Kardashian B)Boca Rosa C)Gucci D)Maurice levy"))
+        if (t =="D") {
+            alert ("Resposta correta! +1 ponto")
+            pt = pt++;
+        }
+        else {
+            alert ("Resposta incorreta, sem ponto")
+        };
+        var q = (prompt("O que é utilizado para espalhar base? A)Pincel B)Esponjinha C)Dedo D)Pente"))
+        if (q =="B") {
+            alert ("Resposta correta! +1 ponto")
+            pt = pt++;
+        }
+        else {
+            alert ("Resposta incorreta, sem ponto")
+        };
+        var qu = (prompt("Onde se usa o deliniado A)Olhos B)Bochecha C)Manchas da pele D)Boca"))
+        if (qu =="A") {
+            alert ("Resposta correta! +1 ponto")
+            pt = pt++;
+        }
+        else {
+            alert ("Resposta incorreta, sem ponto")
+        };
+        var s = (prompt("Qual a origem da M.A.C.? A)Canadá B)EUA C)Brasil D)Alemanha"))
+        if ( s=="A") {
+            alert ("Resposta correta! +1 ponto")
+            pt = pt++;
+        }
+        else {
+            alert ("Resposta incorreta, sem ponto")
+        };
+
+        if (pt>4) {
+            document.write ("Parabens! Você conseguiu um cupom de desconto<p>")
+            document.write ("Código:DESC4578 <p>")
+            document.write ("Pontos" + pt)
+        }
+        else {
+            document.write ("Infelizmente você não conseguiu o desconto...")
+            document.write ("Pontos" + pt)
+        }
+        
+    </script>
+    
+</body>
+</html>
